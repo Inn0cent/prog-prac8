@@ -9,7 +9,6 @@
 public class Item
 {
     private String title;
-    private int playingTime;
     private boolean gotIt;
     private String comment;
 
@@ -18,10 +17,9 @@ public class Item
      * @param theTitle The title of this item.
      * @param time The running time of this item.
      */
-    public Item(String theTitle, int time)
+    public Item(String theTitle)
     {
         title = theTitle;
-        playingTime = time;
         gotIt = false;
         comment = "";
     }
@@ -65,7 +63,7 @@ public class Item
      */
     public void print()
     {
-        System.out.print("title: " + title + " (" + playingTime + " mins)");
+        System.out.print("title: " + title);
         if(gotIt) {
             System.out.println("::GotIt");
         } else {

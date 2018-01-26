@@ -5,7 +5,7 @@
  * @author Michael Kolling and David J. Barnes
  * @version 2008.03.30
  */
-public class CD extends Item
+public class CD extends TimeItem
 {
     private String artist;
     private int numberOfTracks;

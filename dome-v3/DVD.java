@@ -6,7 +6,7 @@
  * @author Michael Kolling and David J. Barnes
  * @version 2008.03.30
  */
-public class DVD extends Item 
+public class DVD extends TimeItem 
 {
     private String director;
 
@@ -28,5 +28,10 @@ public class DVD extends Item
     public String getDirector()
     {
         return director;
+    }
+    
+    public void print(){
+        super.print() ;
+        System.out.println("director: " + director );
     }
 }

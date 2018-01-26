@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=theTitle\ time
+comment0.target=TimeItem(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ TimeItem\r\n
+comment1.params=
+comment1.target=void\ print()
+numComments=2
