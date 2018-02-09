@@ -65,9 +65,9 @@ public class Item
     {
         System.out.print("title: " + title);
         if(gotIt) {
-            System.out.println("::GotIt");
+            System.out.println(":GotIt");
         } else {
-            System.out.println("::NotGotIt");
+            System.out.println(":NotGotIt");
         }
         System.out.println("Comment:" + comment);
     }

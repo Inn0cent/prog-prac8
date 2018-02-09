@@ -1,9 +1,11 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Basket()
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Basket\r\n
-comment1.params=theItem
-comment1.target=void\ addItem(WholeItem)
-comment2.params=
-comment2.target=void\ list()
-numComments=3
+comment0.target=Basket
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Basket\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Basket()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Basket\r\n
+comment2.params=theItem
+comment2.target=void\ addItem(WholeItem)
+comment3.params=
+comment3.target=void\ list()
+numComments=4
